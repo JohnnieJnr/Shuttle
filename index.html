@@ -69,19 +69,41 @@ Author URL: http://w3layouts.com
                         Shuttle</h3>
                     <div class="banner-form-w3">
                         <!--/Request-a-call-form -->
-                        <form action="" method="post">
+                        <form action="conf.html" method="post">
                             <div class="form-style-w3ls">
                                 <div class="form-gd">
-                                    <label for="input_from">Enter Destination</label>
-                                    <input type="text" name="Name" placeholder="Enter Destination" required="required">
+                                    <label for="input_from">Select Route</label>
+                                    <select name="text" id="text">
+                                        <option value="Madina-GIMPA">Madina-GIMPA</option>
+                                        <option value="37-GIMPA">37-GIMPA</option>
+                                        <option value="LAPAZ-GIMPA">LAPAZ-GIMPA</option>
+                                      </select>
                                 </div>
                                 <div class="form-gd">
                                     <label for="input_from">Bus Stop</label>
-                                    <input type="text" name="Name" placeholder="Enter Bus" required="required">
+                                    <select name="text" id="text">
+                                        <option value="Madina">Madina Zongo Junction Bus Stop</option>
+                                        <option value="37">37 Bus Stop</option>
+                                        <option value="LAPAZ">LAPAZ Bus Stop</option>
+                                      </select>
                                 </div>
                                 <div class="form-gd">
-                                    <label for="input_from">Submit</label>
-                                    <button class="btn btn-style btn-primary" onclick="location.href = 'conf.html';"> Send request</button>
+                                </div>
+                                <div class="form-gd">
+                                    <label for="input_from">Select Destination</label>
+                                    <select name="text" id="text">
+                                        <option value="Madina Zongo Junction">Madina Zongo Junction</option>
+                                        <option value="37">37</option>
+                                        <option value="GIMPA">GIMPA</option>
+                                        <option value="Lapaz">Lapaz</option>
+                                      </select>
+                                </div>
+                                </div>
+                                <div class="form-gd">
+                                    <br>
+                                </div>
+                                <div class="form-gd">
+                                    <button class="btn btn-style btn-primary"> Send request</button>
                                 </div>
                             </div>
                         </form>
